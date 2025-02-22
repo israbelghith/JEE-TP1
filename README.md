@@ -33,9 +33,6 @@ jstl.jar (or javax.servlet.jsp.jstl-xxx.jar if needed)
 4️⃣ Set up the database:
 Run the following SQL script to create the necessary tables:
 
-sql
-Copy
-Edit
 CREATE TABLE utilisateurs (
     id INT PRIMARY KEY AUTO_INCREMENT,
     login VARCHAR(50) NOT NULL,
