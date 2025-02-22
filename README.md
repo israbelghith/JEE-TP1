@@ -25,12 +25,12 @@ This project is a Java EE web application for managing users and products using 
 git clone URL_TO_REPOSITORY
 cd PROJECT_NAME
 
-2️⃣ Import the project into an IDE (Eclipse/IntelliJ)
-3️⃣ Add the required JAR files:
+### 2️⃣ Import the project into an IDE (Eclipse/IntelliJ)
+### 3️⃣ Add the required JAR files:
 mysql-connector-java-6.0.6.jar
 jstl.jar (or javax.servlet.jsp.jstl-xxx.jar if needed)
 
-4️⃣ Set up the database:
+### 4️⃣ Set up the database:
 Run the following SQL script to create the necessary tables:
 
 CREATE TABLE utilisateurs (
@@ -45,6 +45,6 @@ CREATE TABLE produit (
     quantite INT NOT NULL
 );
 
-5️⃣ Start XAMPP and access the application:
+### 5️⃣ Start XAMPP and access the application:
 http://localhost:8080/PROJECT_NAME
 
