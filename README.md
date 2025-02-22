@@ -20,8 +20,8 @@ This project is a Java EE web application for managing users and products using 
 
 ## 🛠 Installation
 
-### 1️⃣ Clone the repository
-```bash
+### 1️⃣ Clone the repository:
+``bash
 git clone URL_TO_REPOSITORY
 cd PROJECT_NAME
 
@@ -47,4 +47,6 @@ CREATE TABLE produit (
 
 ### 5️⃣ Start XAMPP and access the application:
 http://localhost:8080/PROJECT_NAME
+
+
 
