@@ -21,9 +21,10 @@ This project is a Java EE web application for managing users and products using 
 ## 🛠 Installation
 
 ### 1️⃣ Clone the repository:
-``bash
+```bash
 git clone URL_TO_REPOSITORY
 cd PROJECT_NAME
+```
 
 ### 2️⃣ Import the project into an IDE (Eclipse/IntelliJ)
 ### 3️⃣ Add the required JAR files:
@@ -32,7 +33,7 @@ jstl.jar (or javax.servlet.jsp.jstl-xxx.jar if needed)
 
 ### 4️⃣ Set up the database:
 Run the following SQL script to create the necessary tables:
-
+```
 CREATE TABLE utilisateurs (
     id INT PRIMARY KEY AUTO_INCREMENT,
     login VARCHAR(50) NOT NULL,
@@ -45,8 +46,10 @@ CREATE TABLE produit (
     quantite INT NOT NULL
 );
 
+```
+
 ### 5️⃣ Start XAMPP and access the application:
-http://localhost:8080/PROJECT_NAME
+``` http://localhost:8080/PROJECT_NAME ```
 
 
 
